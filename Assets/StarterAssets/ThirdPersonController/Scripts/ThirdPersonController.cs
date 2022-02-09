@@ -65,6 +65,11 @@ namespace StarterAssets
 
 		// player
 		private float _speed;
+
+		public float GetSpeed()
+        {
+			return _speed;
+        }
 		private float _animationBlend;
 		private float _targetRotation = 0.0f;
 		private float _rotationVelocity;
